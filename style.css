@@ -10,9 +10,7 @@ body {
 .heading {
   font-size: 30px;
 }
-* {
-  box-sizing: border-box;
-}
+
 .firstboi {
   object-fit: contain;
   width: 500pxpx;
