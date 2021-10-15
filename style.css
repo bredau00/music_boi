@@ -3,12 +3,20 @@ body {
   background-size: cover;
   font-family: Arial, Helvetica, sans-serif;
 }
+.logo2 {
+  height: 88px;
+  width: 88px;
+}
+.heading {
+  font-size: 30px;
+}
 * {
   box-sizing: border-box;
 }
 .firstboi {
-  width: 300px;
-  height: 400px;
+  object-fit: contain;
+  width: 500pxpx;
+  height: 600px;
 }
 button {
   transition-duration: 0.4s;
@@ -20,15 +28,22 @@ button {
   border-radius: 25%;
 }
 /* nav bar */
+ul {
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+  border: black;
+}
 li {
   float: right;
+  background-color: black;
 }
 
 /* divs */
 .num1 {
   display: grid;
   place-items: center;
-  height: 1000px;
+  height: 1200px;
   width: 100%;
   background-image: url(music_back.jpg);
   background-size: cover;
@@ -70,3 +85,10 @@ header {
   color: white;
   width: 100%;
 } */
+.contact {
+  height: 446px;
+  width: 938px;
+  display: grid;
+  place-items: center;
+  background-color: #ffffff;
+}
