@@ -8,29 +8,94 @@ body {
   width: 88px;
 }
 .heading {
-  font-size: 30px;
+  font-size: 100px;
 }
+/* h1 {
+  color: #efab47 !important;
+} */
+.line {
+  height: 10px;
+  width: 198px;
+  background-color: #efab47;
+  color: #efab47;
+  margin: auto;
+}
+/* pics */
 
 .firstboi {
   object-fit: contain;
-  width: 500pxpx;
-  height: 600px;
+  width: 800px;
+  height: 100%;
 }
+.boi2 {
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+}
+.boi3 {
+  height: 100%;
+  width: 600px;
+}
+.icons {
+  width: 50px;
+  height: 50px;
+}
+.radio {
+  height: 100%;
+  width: 50%;
+  float: left;
+}
+.pics {
+  height: 300px;
+  width: 300px;
+  justify-content: center;
+
+  place-items: center;
+}
+
+/* buttons */
 button {
-  transition-duration: 0.4s;
-  background-color: #4caf50; /* Green */
-  color: white;
-  padding: 16px 32px;
+  background-color: #292870;
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: inline-flex;
+  font-size: 1rem;
+  height: auto;
+  padding: 6px 20px;
+  position: relative;
   text-align: center;
-  text-decoration: none;
-  border-radius: 25%;
+  cursor: pointer;
 }
+button :hover {
+  color: #efab47;
+}
+.button2 {
+  background-color: #efab47;
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: inline-flex;
+  font-size: 1rem;
+  height: auto;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+.button2 :hover {
+  background-color: #292870;
+}
+
 /* nav bar */
 ul {
   width: 100%;
-  background-color: black;
+  background-color: #292870;
   padding: 20px;
-  border: black;
 }
 li {
   float: right;
@@ -45,23 +110,66 @@ li {
   width: 100%;
   background-image: url(music_back.jpg);
   background-size: cover;
+  color: #ffffff;
 }
 .num2 {
   display: grid;
-  place-items: center;
   height: 700px;
   width: 100%;
-  color: #ffffff;
   background-color: #292870;
   background-size: cover;
+  color: #efab47;
 }
 .num3 {
   display: grid;
-  place-items: center;
   height: 700px;
   width: 100%;
   background-image: url(music_back.jpg);
   background-size: cover;
+  color: #ffffff;
+}
+.div2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.div2 .div3 div {
+  margin: 30px;
+}
+.div3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.div4 {
+  height: auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+.div5 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.div6 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.para {
+  float: right !important;
+}
+.div7 {
+  display: grid;
+  place-items: center;
+}
+.contact {
+  height: 446px;
+  width: 938px;
+  display: grid;
+  place-items: center;
+  background-color: #ffffff;
+  color: #292870;
 }
 
 /* headers
@@ -83,10 +191,3 @@ header {
   color: white;
   width: 100%;
 } */
-.contact {
-  height: 446px;
-  width: 938px;
-  display: grid;
-  place-items: center;
-  background-color: #ffffff;
-}
